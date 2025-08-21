@@ -9,7 +9,7 @@ public class CustomerController {
     private final List<String> messages = new ArrayList<>(List.of("Hi", "Hello"));
 
     @GetMapping
-    public List<String> getMessages(){
-        return messages;
+    public String getMessages(){
+        return "Hi from customer service";
     }
 }
