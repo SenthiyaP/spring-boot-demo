@@ -1,16 +1,4 @@
 {
     "name": "Java 17 with Maven",
-    "image": "mcr.microsoft.com/devcontainers/java:17",
-    "features": {
-        "ghcr.io/devcontainers/features/maven:1":{}
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "vscjava.vscode-java-pack",
-                "vscjava.vscode-maven",
-                "pivotal.vscode-spring-boot"
-            ]
-        }
-    }
+    "image": "mcr.microsoft.com/devcontainers/java:17"
 }
